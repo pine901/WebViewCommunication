@@ -1,0 +1,28 @@
+PODS:
+  - NFCPassportReader (1.1.9):
+    - OpenSSL-Universal (= 1.1.180)
+  - OpenSSL-Universal (1.1.180)
+
+DEPENDENCIES:
+  - NFCPassportReader (from `https://github.com/AndyQ/NFCPassportReader.git`)
+
+SPEC REPOS:
+  trunk:
+    - OpenSSL-Universal
+
+EXTERNAL SOURCES:
+  NFCPassportReader:
+    :git: https://github.com/AndyQ/NFCPassportReader.git
+
+CHECKOUT OPTIONS:
+  NFCPassportReader:
+    :commit: 10e266eff3f11822b7567c380287fc1a4656ee4f
+    :git: https://github.com/AndyQ/NFCPassportReader.git
+
+SPEC CHECKSUMS:
+  NFCPassportReader: 3a4b15d28c89a1f747c957f2bce1230c268dba25
+  OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
+
+PODFILE CHECKSUM: 65ef5ac8070a7772635954e1082410bc8f636f11
+
+COCOAPODS: 1.11.3
